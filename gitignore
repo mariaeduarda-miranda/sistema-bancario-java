@@ -1,0 +1,18 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+*.swp
+*~
+.vscode/
+.DS_Store
+
+# Build
+/target/
+/build/
+/out/
