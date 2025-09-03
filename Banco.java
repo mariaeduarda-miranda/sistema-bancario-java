@@ -26,6 +26,7 @@ public ContaBancaria buscarConta(String numero) {
     if (numero != null && !numero.trim().isEmpty()) {
         for (ContaBancaria conta : contas) {
             if (conta.getNumero().equals(numero)) {
+                return conta;
             }
         }
     }

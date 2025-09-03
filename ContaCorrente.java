@@ -40,6 +40,7 @@ public boolean sacar(double valor) {
 
 @Override
 public String toString() {
-    return String.format("ContaCorrente{numero='%s', titular='%s', saldo=R$ %.2f, limite=R$ %.2f, disponível=R$ %.2f}", getNumero(), consultarSaldo(), limite, consultarSaldo() + limite);
+    return String.format("ContaCorrente{numero='%s', titular='%s', saldo=R$ %.2f, limite=R$ %.2f, disponível=R$ %.2f}", 
+    getNumero(), consultarSaldo(), limite, consultarSaldo() + limite);
 }
 }
